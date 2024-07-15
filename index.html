@@ -13,21 +13,15 @@
     
     <div class="header">
         <div class="title">BOOK APP</div>
-        <input type="search" name="" id="find" placeholder="Search for name or author">
+        <!-- <input type="search" name="" id="find" placeholder="Search for name or author"> -->
     </div>
 
-    <div class="sidebar">
 
-                <img src="" alt="">
-                <div class="home">Home</div>
-           
-
-    </div>
 
 
     <div class="page">
         <div class="page-header">
-            <div>Your books</div>
+            <div class="page-title">Your books</div>
             <button class="btn" type="button">ADD BOOK</button>
         </div>
 
@@ -60,13 +54,18 @@
         <input type="checkbox" name="read" id="read" value="true">
     </div>
 
+    <div class="description">
+        <label for="description">Description</label>
+        <textarea rows="4" cols="50" name="description" id="description"></textarea>
+    </div>
+
     <div class="cover">
         <label for="cover">Choose a book cover</label>
         <input type="file" name="cover" id="cover">
     </div>
 
 
-
+    <button class="x-button" type="button">❌</button>
 
     <input class="submit" type="submit" value="Add book">
  
